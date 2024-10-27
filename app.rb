@@ -3,7 +3,13 @@ require "sinatra/reloader"
 
 get("/square/results") do
 
-  erb(:hello)
+  erb(:square_results)
+
+end
+
+get("/square/new") do
+
+  erb(:square)
 
 end
 
