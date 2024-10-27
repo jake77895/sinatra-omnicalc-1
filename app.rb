@@ -3,8 +3,8 @@ require "sinatra/reloader"
 
 get("/howdy") do
 
-  "test"
-  
+  erb(:hello)
+
 end
 
 get("/") do
