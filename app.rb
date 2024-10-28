@@ -2,6 +2,18 @@ require "sinatra"
 require "sinatra/reloader"
 
 
+get("/random/results") do
+
+  erb(:random_results)
+
+end
+
+get("/random/new") do
+
+  erb(:random)
+
+end
+
 get("/payment/results") do
 
     # Retrieve values from the query string
